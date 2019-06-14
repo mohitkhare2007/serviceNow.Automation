@@ -1,0 +1,269 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: mohith.khare@sainsburys.co.uk"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary : Change Management"
+      },
+      {
+        "line": 3,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 4,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 5,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 6,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 7,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 8,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 9,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 10,
+        "value": "#\"\""
+      },
+      {
+        "line": 11,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 12,
+        "value": "#Change Management Scenarios"
+      }
+    ],
+    "line": 14,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1320405107,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepMethod.hookScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Testing Successful Normal Change process",
+        "description": "",
+        "id": "change-management;testing-successful-normal-change-process;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 696470086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepMethod.close_the_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Pass: \u0027chrome\u0027 browser launched successfull"
+            ],
+            "result": {
+              "duration": 10752583974,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Open \"chrome\" and launch URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 6
+                }
+              ],
+              "location": "StepMethod.open_and_launch_URL(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Pass: Login successfull"
+            ],
+            "result": {
+              "duration": 5237527218,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Authenticate the user",
+            "match": {
+              "location": "StepMethod.authenticate_the_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Pass: Impersonate successfull"
+            ],
+            "result": {
+              "duration": 15442471367,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Impersonate as a different user",
+            "match": {
+              "location": "StepMethod.impersonate_as_a_different_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Pass: Successfully Navigated to Change Management"
+            ],
+            "result": {
+              "duration": 3947383680,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Navigate to Change Management",
+            "match": {
+              "location": "StepMethod.navigate_to_Change_Management()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Pass: Successfully Navigated to Normal Change"
+            ],
+            "result": {
+              "duration": 2854283308,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Select Change type",
+            "match": {
+              "location": "StepMethod.select_Change_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Pass: Successfully Create the Change:CHG0060431 for Approval"
+            ],
+            "result": {
+              "duration": 45687717231,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Create a Change",
+            "match": {
+              "location": "StepMethod.create_a_Change()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Pass: Successfully Submitted Risk Assessment"
+            ],
+            "result": {
+              "duration": 11521465864,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Fill Risk assessment form",
+            "match": {
+              "location": "StepMethod.fill_Risk_assessment_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Pass: Successfully Submitted the for Approval"
+            ],
+            "result": {
+              "duration": 3736215676,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Submit Change for approval",
+            "match": {
+              "location": "StepMethod.submit_Change_for_approval()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Pass: \u0027Change Request\u0027 approved successfully and ready for Implementation"
+            ],
+            "result": {
+              "duration": 88928812763,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Approve the change request",
+            "match": {
+              "location": "StepMethod.approve_the_change_request()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Fail: Failed to move \u0027Change Request\u0027 to Review Status"
+            ],
+            "result": {
+              "duration": 26711124425,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Implement and review the change request",
+            "match": {
+              "location": "StepMethod.implement_and_review_the_change_request()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@tag"
+          },
+          {
+            "line": 16,
+            "name": "@tag15"
+          }
+        ]
+      }
+    ],
+    "name": "Change Management",
+    "description": "",
+    "id": "change-management",
+    "keyword": "Feature",
+    "uri": "ChangeManagement.feature",
+    "tags": [
+      {
+        "line": 13,
+        "name": "@tag"
+      }
+    ]
+  }
+]

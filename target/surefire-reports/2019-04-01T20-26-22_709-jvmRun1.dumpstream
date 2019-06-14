@@ -1,0 +1,74 @@
+# Created at 2019-04-01T20:29:15.714
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-04-01T20:29:15.933
+Unexpected IOException with stream: Apr 01, 2019 8:29:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2019-04-01T20:29:19.533
+Unexpected IOException with stream: Pass: 'chrome' browser launched successfull
+
+
+# Created at 2019-04-01T20:29:19.538
+Unexpected IOException: 5,1,| chrome |,Given Open "chrome" and launch URL(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:19.541
+Unexpected IOException: 6,1,| chrome |,Given Open "chrome" and launch URL(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:25.047
+Unexpected IOException with stream: Pass: Login successfull
+
+
+# Created at 2019-04-01T20:29:25.047
+Unexpected IOException: 5,1,| chrome |,And Authenticate the user(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:25.047
+Unexpected IOException: 6,1,| chrome |,And Authenticate the user(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:40.307
+Unexpected IOException with stream: Pass: Impersonate successfull
+
+
+# Created at 2019-04-01T20:29:40.311
+Unexpected IOException: 5,1,| chrome |,Then Impersonate as a different user(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:40.311
+Unexpected IOException: 6,1,| chrome |,Then Impersonate as a different user(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:44.442
+Unexpected IOException with stream: Pass: Successfully Navigated to Change Management
+
+
+# Created at 2019-04-01T20:29:44.442
+Unexpected IOException: 5,1,| chrome |,When Navigate to Change Management(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:44.446
+Unexpected IOException: 6,1,| chrome |,When Navigate to Change Management(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:47.061
+Unexpected IOException with stream: Pass: Successfully Navigated to Normal Change
+
+
+# Created at 2019-04-01T20:29:47.061
+Unexpected IOException: 5,1,| chrome |,And Select Change type(| chrome |),null,null,null
+
+
+# Created at 2019-04-01T20:29:47.065
+Unexpected IOException: 6,1,| chrome |,And Select Change type(| chrome |),null,null,null
+
+

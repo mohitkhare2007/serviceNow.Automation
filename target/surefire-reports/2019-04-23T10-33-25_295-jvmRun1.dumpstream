@@ -1,0 +1,50 @@
+# Created at 2019-04-23T10:34:49.202
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-04-23T10:34:50.971
+Unexpected IOException with stream: Apr 23, 2019 10:34:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2019-04-23T10:34:54.674
+Unexpected IOException with stream: Pass: 'chrome' browser launched successfull
+
+
+# Created at 2019-04-23T10:34:54.676
+Unexpected IOException: 5,1,| chrome |,Given Open "chrome" and launch URL(| chrome |),null,null,null
+
+
+# Created at 2019-04-23T10:34:54.677
+Unexpected IOException: 6,1,| chrome |,Given Open "chrome" and launch URL(| chrome |),null,null,null
+
+
+# Created at 2019-04-23T10:35:06.101
+Unexpected IOException with stream: Pass: Login successfull
+
+
+# Created at 2019-04-23T10:35:06.103
+Unexpected IOException: 5,1,| chrome |,And Authenticate the user(| chrome |),null,null,null
+
+
+# Created at 2019-04-23T10:35:06.105
+Unexpected IOException: 6,1,| chrome |,And Authenticate the user(| chrome |),null,null,null
+
+
+# Created at 2019-04-23T10:35:23.335
+Unexpected IOException with stream: Pass: Impersonate successfull
+
+
+# Created at 2019-04-23T10:35:23.337
+Unexpected IOException: 5,1,| chrome |,Then Impersonate as a different user(| chrome |),null,null,null
+
+
+# Created at 2019-04-23T10:35:23.339
+Unexpected IOException: 6,1,| chrome |,Then Impersonate as a different user(| chrome |),null,null,null
+
+

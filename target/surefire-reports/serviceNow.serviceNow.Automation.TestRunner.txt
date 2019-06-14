@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: serviceNow.serviceNow.Automation.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 264.737 s <<< FAILURE! - in serviceNow.serviceNow.Automation.TestRunner
+When Navigate to platform page(| firefox |)  Time elapsed: 0.01 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Roles
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'WALSNT81057', ip: '10.155.29.124', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 9028, moz:profile: C:\Users\mohith.khare\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b130a9f-5397-42ae-8c01-2ea23b21b7e9
+*** Element info: {Using=link text, value=Roles}
+
+| firefox |  Time elapsed: 0.011 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Roles
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'WALSNT81057', ip: '10.155.29.124', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 9028, moz:profile: C:\Users\mohith.khare\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b130a9f-5397-42ae-8c01-2ea23b21b7e9
+*** Element info: {Using=link text, value=Roles}
+

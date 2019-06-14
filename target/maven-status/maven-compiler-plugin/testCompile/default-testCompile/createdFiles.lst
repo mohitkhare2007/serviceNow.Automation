@@ -1,0 +1,8 @@
+serviceNow\pageObjects\LoginPage_SSP.class
+serviceNow\pageObjects\TrackAnIncident.class
+serviceNow\pageObjects\HomePage_SSP.class
+serviceNow\serviceNow\Automation\StepMethod.class
+serviceNow\pageObjects\ChangeManagement_SN.class
+serviceNow\serviceNow\Automation\TestRunner.class
+serviceNow\genericObjects\ExcelReader.class
+serviceNow\pageObjects\PlatformGeneric.class
